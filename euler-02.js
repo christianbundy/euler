@@ -18,9 +18,8 @@ while (prev + curr < 4000000) {
   // Even numbered ones
   if (curr % 2 === 0) {
     sum = sum + curr
+    console.log({curr, sum})
   }
-  
-  console.log({prev, curr, sum})
 }
 
 console.log(sum)
